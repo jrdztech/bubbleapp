@@ -1,4 +1,5 @@
-# application.pyfrom flask import Flask
+# application.py
+from flask import Flask
 app = Flask(name)
 
 @app.route("/")
